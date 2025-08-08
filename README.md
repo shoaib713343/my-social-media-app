@@ -1,16 +1,88 @@
-# Memories
+# Memories - Social Media MERN App
 
 ![Memories](https://i.ibb.co/Z8Y0CJv/Screenshot-2020-10-30-at-11-10-04.png)
 
-## Introduction
-This is a code repository for the corresponding video tutorial - https://youtube.com/playlist?list=PL6QREj8te1P7VSwhrMf3D3Xt4V6_SRkhu.
 
-Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called "Memories" and it is a simple social media app that allows users to post interesting events that happened in their lives.
+Memories is a full-stack social media application built with the MERN stack (MongoDB, Express.js, React, Node.js). It provides a platform for users to share their most memorable moments with a community of friends. Users can create, update, like, and delete their posts, creating a dynamic and interactive experience.
 
-By the end of this video, you will have a strong understanding of how the MERN Stack works.
+This project was built to demonstrate a comprehensive understanding of full-stack development, including user authentication, RESTful API design, and complex state management with Redux.
 
-### [🌟 Become a top 1% Next.js 15 developer in only one course](https://jsmastery.pro/next15)
-### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
+Live Demo & Screenshot
+Live Demo: [YOUR_DEPLOYMENT_LINK_HERE]
 
-Setup:
-- run ```npm i && npm start``` for both client and server side to start the app
+##Features
+Full CRUD Functionality: Users can Create, Read, Update, and Delete their own posts.
+
+User Authentication: Secure user registration and login system using JSON Web Tokens (JWT) for protected routes and actions.
+
+Post Interaction: Users can "like" posts from other users, with real-time updates to the like count.
+
+Image Uploads: Functionality to upload images with posts, which are converted to Base64 format for storage.
+
+State Management: Utilizes Redux for robust and predictable state management across the application, handling posts, authentication, and UI state.
+
+Responsive Design: The user interface is fully responsive and built with Material-UI for a clean, modern look on all devices.
+
+##Tech Stack
+Frontend:
+
+React
+
+Redux
+
+Material-UI
+
+Axios
+
+Backend:
+
+Node.js
+
+Express.js
+
+Database:
+
+MongoDB with Mongoose
+
+##Setup and Installation
+To get a local copy up and running, follow these simple steps.
+
+Clone the repository:
+
+git clone https://github.com/your-username/your-repo-name.git
+Install server dependencies:
+
+
+cd server
+npm install
+Install client dependencies:
+
+
+cd ../client
+npm install
+Set up environment variables:
+
+Create a .env file in the server directory.
+
+Add your MongoDB connection string and a JWT secret:
+
+CONNECTION_URL = 'your_mongodb_connection_string'
+JWT_SECRET = 'your_jwt_secret'
+Run the application:
+
+From the root directory, run both the client and server concurrently:
+
+npm start
+
+
+
+
+
+
+
+
+
+
+
+
+
